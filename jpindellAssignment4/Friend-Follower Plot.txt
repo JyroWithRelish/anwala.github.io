@@ -1,0 +1,24 @@
+# Read table from acnwala-friendscount.txt (Problem 1) or jdpindell-followerscount.txt (Problem 2) and store info in data
+data <- read.table("jdpindell-friendscount.txt", header = TRUE, sep = " ")
+
+# Calcualte median, mean and standard deviation
+follower <- (data$FOLLOWERS)
+median(follower)
+mean(follower)
+sd(follower)
+
+# Mark and identify Alex Nwala (Problem 1) or James Pindell (Problem 2), Median, Mean, and St. Dev. 
+jdp.follower <- with(data, data[follower == 60, ])
+median.follower <- with(data, data[follower == 466, ])
+mean.follower <- with(data, data[follower == 219969, ])
+sd.follower <- with(data, data[follower == 597366, ])
+
+# Plot data and mark Alex Nwala (Problem 1) or James Pindell (Problem 2), Median, Mean, and St. Dev. with different colors 
+plot(data, main = "Plot of Users and Follower Count", xlim = c(0, 65), ylim = c(0, 3500000), xlab = "Users", ylab = "Follower Count", pch = 20)
+points(jdp.follower, col="red", pch=20)
+points(median.follower, col="green", pch=20)
+points(mean.follower, col="blue", pch=20)
+points(sd.follower, col="purple", pch=20)
+
+#Add Legend (Alex Nwala for Problem 1, James Pindell for Problem 2)
+legend(1, 3500000, legend=c("James Pindell", "Median", "Mean", "St. Dev", "Data"), col=c("red", "green", "blue", "purple", "black"), pch=20, cex=1.0)
