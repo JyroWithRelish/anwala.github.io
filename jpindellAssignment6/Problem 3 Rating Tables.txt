@@ -1,0 +1,22 @@
+User 245's Top 5 Recommended Movies
+-----------------------------------
+ 
+Movie Title                                 | Rating 
+--------------------------------------------------------------- 
+Drunks (1995)                               | 5.000000000000001 
+Whole Wide World, The (1996)                | 5.0
+Wedding Gift, The (1994)                    | 5.0 
+Two or Three Things I Know About Her (1966) | 5.0 
+Thieves (Voleurs, Les) (1996)               | 5.0
+
+User 245's Bottom 5 Recommended Movies
+--------------------------------------
+
+Movie Title                                 | Rating 
+---------------------------------------------------------------
+1-900 (1994)                                | 1.0 
+3 Ninjas: High Noon At Mega Mountain (1998) | 1.0 
+Amityville 1992: It's About Time (1992)     | 1.0 
+Amityville: A New Generation (1993)         | 1.0 
+Amityville: Dollhouse (1996)                | 1.0 
+

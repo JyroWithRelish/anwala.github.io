@@ -1,0 +1,52 @@
+Movie ID | Movie Title      
+--------------------------- 
+1        | Toy Story (1995)
+
+My Top 5 Movies With Positive Correlation to Movie 1
+----------------------------------------------------
+ 
+Movie ID | Movie Title                                                                       | Correlation 
+-----------------------------------------------------------------------------------------------------------------
+1445     | Ladybird Ladybird (1994)                                                          | 1.0000000000000027
+1355     | Infinity (1996)                                                                   | 1.0000000000000022
+1242     | Old Lady Who Walked in the Sea, The (Vieille qui marchait dans la mer, La) (1991) | 1.0000000000000018
+885      | Phantoms (1998)                                                                   | 1.0000000000000018
+341      | Critical Care (1997)                                                              | 1.0000000000000018  
+
+My Bottom 5 Movies With Negative Correlation to Movie 1
+-------------------------------------------------------
+
+Movie ID | Movie Title                                                                       | Correlation 
+-----------------------------------------------------------------------------------------------------------------
+899      | Winter Guest, The (1997)                                                          | -1.0 
+910      | Nil By Mouth (1997)                                                               | -1.0
+913      | Love and Death on Long Island (1997)                                              | -1.0
+1146     | Calendar Girl (1993)                                                              | -1.0
+1159     | Stalker (1979)                                                                    | -1.0
+
+
+Movie ID | Movie Title      
+--------------------------- 
+219      | Nightmare on Elm Street, A (1984)
+
+My Top 5 Movies With Positive Correlation to Movie 219
+------------------------------------------------------
+
+Movie ID | Movie Title                                                                       | Correlation 
+-----------------------------------------------------------------------------------------------------------------
+1451     | Foreign Correspondent (1940)                                                      | 1.0000000000000007
+1473     | Little Princess, The (1939)                                                       | 1.0000000000000007
+352      | Spice World (1997)                                                                | 1.0 
+822      | Faces (1968)                                                                      | 1.0
+838      | In the Line of Duty 2 (1987)                                                      | 1.0
+
+My Bottom 5 Movies With Negative Correlation to Movie 219
+---------------------------------------------------------
+
+Movie ID | Movie Title                                                                       | Correlation 
+-----------------------------------------------------------------------------------------------------------------
+6        | Shanghai Triad (Yao a yao yao dao waipo qiao) (1995)                              | -1.000000000000004
+1461     | Here Comes Cookie (1935)                                                          | -1.000000000000004
+1488     | Germinal (1993)                                                                   | -1.0000000000000004
+626      | So Dear to My Heart (1949)                                                        | -1.0000000000000002
+851      | Two or Three Things I Know About Her (1966)                                       | -1.0000000000000002
